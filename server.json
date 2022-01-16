@@ -1,0 +1,81 @@
+{
+  "books": [
+    {
+      "id": 123423,
+      "title": "Cangaceiro JavaScript",
+      "price": 90.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/OretornodocangaceiroJavaScript_ebook_large.jpg?v=1631654115",
+      "description": "O paradigma funcional está cada vez mais presente em frameworks modernos. E com o JavaScript em constante evolução, os desenvolvedores cangaceiros estão sempre aprendendo novas formas de aprimorar a manutenção e legibilidade de seus códigos, armando-se de conceitos e técnicas para se aventurar em terras ainda mais avançadas e frameworks que possuem grande demanda no atual mercado de trabalho."
+    },
+    {
+      "id": 124,
+      "title": "API REST",
+      "price": 40.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/p_b015df35-d58e-499e-833b-fb87331bb05f_large.png?v=1625775240",
+      "description": "Estamos em uma era de transição na forma como as pessoas se comportam, interagem entre si e consomem produtos e informações. Quando combinamos produto e design, a experiência vem ganhando o centro do processo. Não se consomem mais apenas produtos, mas sim lugares, interações, relações e expectativas. E tudo isso independentemente do canal, tecnologia ou formato. É preciso mudar as lentes pelas quais enxergamos o mundo à nossa volta, atuando de maneira estratégica e sendo capazes de gerar valor para toda cadeia relacionada aos nossos produtos, serviços e, claro, experiências. Neste livro, Gabriel Pinheiro mostra que o valor real de uma experiência vai além da capacidade de obter um retorno rápido e fugaz, como muitos pensam. Ele consiste em possibilitar e sustentar um retorno incremental e capaz de proporcionar inovação. Ao trabalhar com um roadmap estratégico flexível e entender ecossistemas de produto, você poderá desenvolver um mapeamento generativo e integrado de processos e produtos. Com isso, terá ferramentas para criar dinâmicas de apoio às equipes na estruturação de visões de produto compartilhadas, no uso de métricas e na capacidade de adaptação, comprovando a importância de inserir o design em uma cultura ágil de produto."
+    },
+    {
+      "id": 123,
+      "title": "Tuning de SQL",
+      "price": 40.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/p_2ce37502-af36-4aa1-90a4-2b7c5d45713c_large.jpg?v=1640806385",
+      "description": "As instruções SQL são o principal ponto de análise quando falamos sobre performance de programas, pois a maneira como as informações são acessadas e processadas em um banco de dados pode ser a maior causa de demora na execução. Entender quando e como buscar por performance e, dessa maneira, atingir um desempenho adequado é o objetivo do Tuning de SQL.      "
+    },
+    {
+      "id": 234,
+      "title": "Cangaceiro JavaScript",
+      "price": 90.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/OretornodocangaceiroJavaScript_ebook_large.jpg?v=1631654115",
+      "description": "O paradigma funcional está cada vez mais presente em frameworks modernos. E com o JavaScript em constante evolução, os desenvolvedores cangaceiros estão sempre aprendendo novas formas de aprimorar a manutenção e legibilidade de seus códigos, armando-se de conceitos e técnicas para se aventurar em terras ainda mais avançadas e frameworks que possuem grande demanda no atual mercado de trabalho."
+    },
+    {
+      "id": 6534,
+      "title": "API REST",
+      "price": 40.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/p_b015df35-d58e-499e-833b-fb87331bb05f_large.png?v=1625775240",
+      "description": "Estamos em uma era de transição na forma como as pessoas se comportam, interagem entre si e consomem produtos e informações. Quando combinamos produto e design, a experiência vem ganhando o centro do processo. Não se consomem mais apenas produtos, mas sim lugares, interações, relações e expectativas. E tudo isso independentemente do canal, tecnologia ou formato. É preciso mudar as lentes pelas quais enxergamos o mundo à nossa volta, atuando de maneira estratégica e sendo capazes de gerar valor para toda cadeia relacionada aos nossos produtos, serviços e, claro, experiências. Neste livro, Gabriel Pinheiro mostra que o valor real de uma experiência vai além da capacidade de obter um retorno rápido e fugaz, como muitos pensam. Ele consiste em possibilitar e sustentar um retorno incremental e capaz de proporcionar inovação. Ao trabalhar com um roadmap estratégico flexível e entender ecossistemas de produto, você poderá desenvolver um mapeamento generativo e integrado de processos e produtos. Com isso, terá ferramentas para criar dinâmicas de apoio às equipes na estruturação de visões de produto compartilhadas, no uso de métricas e na capacidade de adaptação, comprovando a importância de inserir o design em uma cultura ágil de produto."
+    },
+    {
+      "id": 8809,
+      "title": "Tuning de SQL",
+      "price": 40.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/p_2ce37502-af36-4aa1-90a4-2b7c5d45713c_large.jpg?v=1640806385",
+      "description": "As instruções SQL são o principal ponto de análise quando falamos sobre performance de programas, pois a maneira como as informações são acessadas e processadas em um banco de dados pode ser a maior causa de demora na execução. Entender quando e como buscar por performance e, dessa maneira, atingir um desempenho adequado é o objetivo do Tuning de SQL.      "
+    },
+    {
+      "id": 67834,
+      "title": "Cangaceiro JavaScript",
+      "price": 90.90,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/OretornodocangaceiroJavaScript_ebook_large.jpg?v=1631654115",
+      "description": "O paradigma funcional está cada vez mais presente em frameworks modernos. E com o JavaScript em constante evolução, os desenvolvedores cangaceiros estão sempre aprendendo novas formas de aprimorar a manutenção e legibilidade de seus códigos, armando-se de conceitos e técnicas para se aventurar em terras ainda mais avançadas e frameworks que possuem grande demanda no atual mercado de trabalho."
+    },
+    {
+      "id": 674589,
+      "title": "API REST",
+      "price": 40.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/p_b015df35-d58e-499e-833b-fb87331bb05f_large.png?v=1625775240",
+      "description": "Estamos em uma era de transição na forma como as pessoas se comportam, interagem entre si e consomem produtos e informações. Quando combinamos produto e design, a experiência vem ganhando o centro do processo. Não se consomem mais apenas produtos, mas sim lugares, interações, relações e expectativas. E tudo isso independentemente do canal, tecnologia ou formato. É preciso mudar as lentes pelas quais enxergamos o mundo à nossa volta, atuando de maneira estratégica e sendo capazes de gerar valor para toda cadeia relacionada aos nossos produtos, serviços e, claro, experiências. Neste livro, Gabriel Pinheiro mostra que o valor real de uma experiência vai além da capacidade de obter um retorno rápido e fugaz, como muitos pensam. Ele consiste em possibilitar e sustentar um retorno incremental e capaz de proporcionar inovação. Ao trabalhar com um roadmap estratégico flexível e entender ecossistemas de produto, você poderá desenvolver um mapeamento generativo e integrado de processos e produtos. Com isso, terá ferramentas para criar dinâmicas de apoio às equipes na estruturação de visões de produto compartilhadas, no uso de métricas e na capacidade de adaptação, comprovando a importância de inserir o design em uma cultura ágil de produto."
+    },
+    {
+      "id": 32234,
+      "title": "Tuning de SQL",
+      "price": 40.00,
+      "image": "https://cdn.shopify.com/s/files/1/0155/7645/products/p_2ce37502-af36-4aa1-90a4-2b7c5d45713c_large.jpg?v=1640806385",
+      "description": "As instruções SQL são o principal ponto de análise quando falamos sobre performance de programas, pois a maneira como as informações são acessadas e processadas em um banco de dados pode ser a maior causa de demora na execução. Entender quando e como buscar por performance e, dessa maneira, atingir um desempenho adequado é o objetivo do Tuning de SQL.      "
+    }
+  ],
+  "stock": [
+    {
+      "id": 343,
+      "quantity": 3
+    },
+    {
+      "id": 452,
+      "quantity": 0
+    },
+    {
+      "id": 341,
+      "quantity": 1
+    }
+  ]
+}

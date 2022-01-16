@@ -1,0 +1,55 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.livros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.livro {
+  max-width: 210px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(165, 165, 246);
+  flex-direction: column;
+  border-radius: 20px;
+}
+.livro img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid rgb(165, 165, 246);
+}
+.informacoes .info-item {
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  display: block;
+}
+
+.acoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+.acoes button {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(165, 165, 246);
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+}
