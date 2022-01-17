@@ -21,13 +21,7 @@ const Home = () => {
       <Link to="/books">clicar</Link>
       <ul className="livros">
         {books.map((livro) => (
-          <Book
-            key={livro.id}
-            id={livro.id}
-            img={livro.image}
-            price={livro.price}
-            title={livro.title}
-          ></Book>
+          <Book key={livro.id} card={livro}></Book>
         ))}
       </ul>
     </div>

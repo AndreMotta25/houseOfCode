@@ -1,28 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Book = ({ id, title, img, price }) => {
+const Book = ({ card }) => {
   return (
-    <li id={id} className="livro">
+    <li id={card.id} className="livro">
       <div className="poster">
-        <img src={img} />
+        <img src={card.image} alt={card.title} />
       </div>
-      <div className="informacoes">
-        <span className="titulo info-item">{title}</span>
-        <span className="preco info-item">
-          {new Intl.NumberFormat("pt-BR", {
-            style: "currency",
-            currency: "BRL",
-          }).format(price)}
-        </span>
-      </div>
-      <div className="acoes">
-        <button>Comprar</button>
-        <button>
-          <Link to={`/books/${title}`} className="link">
-            Detalhes
-          </Link>
-        </button>
+      <div className="informacoes-book">
+        <div className="informacoes">
+          <span className="titulo info-item">{card.title}</span>
+          <span className="preco info-item">
+            {new Intl.NumberFormat("pt-BR", {
+              style: "currency",
+              currency: "BRL",
+            }).format(card.price)}
+          </span>
+        </div>
+        <div className="acoes">
+          <button>Comprar</button>
+          <button>
+            <Link to={`/books/${card.id}`} className="link">
+              Detalhes
+            </Link>
+          </button>
+        </div>
       </div>
     </li>
   );

@@ -23,6 +23,14 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border: 1px solid rgb(165, 165, 246);
+  display: block;
+}
+.informacoes-book {
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+  padding: 5px;
 }
 .informacoes .info-item {
   font-weight: bold;
@@ -36,6 +44,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 5px;
+  /* background-color: tomato; */
 }
 .acoes button {
   padding: 5px;
@@ -52,4 +61,101 @@
   text-decoration: none;
   text-transform: none;
   color: black;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(220, 235, 230);
+}
+.container-book {
+  margin: 0 auto;
+  display: flex;
+  max-width: 960px;
+  height: 100%;
+  gap: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+
+  align-items: center;
+  justify-content: center;
+}
+#details-book-capa {
+  flex: 0 1 400px;
+  width: 100%;
+  /* height: 500px; */
+}
+#details-book-capa img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+  object-fit: cover;
+}
+.book-information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 200px;
+  line-height: 2rem;
+  letter-spacing: 0.9px;
+  -webkit-font-smoothing: antialiased;
+}
+.title {
+  font-size: 4rem;
+  color: rgb(25, 115, 143);
+  font-weight: bold;
+}
+.price {
+  font-size: 2rem;
+}
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(24, 62, 230);
+  max-width: 200px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  width: 100%;
+}
+.container-header {
+  padding: 10px;
+  background-color: rgb(24, 62, 230);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-header .navigation-menu {
+  display: flex;
+  /* justify-content: right; */
+}
+.menu-item {
+  padding: 10px;
+}
+.link {
+  color: white;
+}
+@media screen and (max-width: 860px) {
+  .container-book {
+    flex-direction: column;
+    text-align: center;
+  }
+  #details-book-capa {
+    max-width: 400px;
+  }
+}
+.acoes-do-livro {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
 }

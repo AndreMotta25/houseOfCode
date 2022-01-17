@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
-import { Link } from "react-router-dom";
-// import { Book } from "../../components/Book";
+import { Link, useParams } from "react-router-dom";
 
 // toda vez que entrarmos nessa pagina, o componente  vai ser renderizado
 const Books = () => {
-  const [book, setBook] = useState([]);
+  /**
+   * Presta atencao nisso, caso a gente coloque null como o primeiro valor de book
+   * quando a primeira renderizacao acontecesse teriamos um erro falando que
+   * o valor null nao tem as propriedades que estamos acessando. Para contornarmos
+   * isso teriamos que usar um ternario ou algo do tipo oque seria mais codigo
+   * */
+  const [book, setBook] = useState({});
   const params = useParams();
 
   useEffect(() => {
@@ -13,19 +17,36 @@ const Books = () => {
  nao podemos colocar funçoes assincronas nele*/
     async function pesquisar1() {
       const livro = await (
-        await fetch(`http://localhost:3333/books?title=${params.livro}`)
+        await fetch(`http://localhost:3333/books?id=${params.livro}`)
       ).json();
-      console.log("sdasdas");
       console.log(livro);
-      // setBook(book);
+      setBook(livro[0]);
     }
-
     pesquisar1();
-  }, []);
+  }, [params.livro]);
+
   return (
-    <div>
-      <Link to="/">home</Link>
-    </div>
+    <>
+      <div className="container-book">
+        <div id="details-book-capa">
+          <img src={book.image} alt={book.title} />
+        </div>
+        <div className="book-information">
+          <h1 className="title">{book.title}</h1>
+          <h2 className="price">
+            {new Intl.NumberFormat("pt-BR", {
+              style: "currency",
+              currency: "BRL",
+            }).format(book.price)}
+          </h2>
+          <p className="book-description">{book.description}</p>
+          <div className="acoes-do-livro">
+            <button className="btn">favoritos</button>
+            <button className="btn">adicionar</button>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
