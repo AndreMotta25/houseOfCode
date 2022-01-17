@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import Modal from "../../components/Modal/Modal";
 
 // toda vez que entrarmos nessa pagina, o componente  vai ser renderizado
 const Books = () => {
@@ -11,7 +12,7 @@ const Books = () => {
    * */
   const [book, setBook] = useState({});
   const params = useParams();
-
+  const [ativo, setAtivo] = useState(null);
   useEffect(() => {
     /**não podemos colocar o useEffect como asincrono, mas isso nao quer dizer que
  nao podemos colocar funçoes assincronas nele*/
@@ -42,10 +43,18 @@ const Books = () => {
           <p className="book-description">{book.description}</p>
           <div className="acoes-do-livro">
             <button className="btn">favoritos</button>
-            <button className="btn">adicionar</button>
+            <button
+              className="btn"
+              onClick={() => {
+                setAtivo("ativo");
+              }}
+            >
+              adicionar
+            </button>
           </div>
         </div>
       </div>
+      {ativo && <Modal setAtivo={setAtivo}></Modal>}
     </>
   );
 };

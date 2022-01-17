@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <header className=" container-header">
       <nav className="container navigation">
-        <span>tescadasd</span>
+        <div className="shopQuantity">10</div>
         <ul className="navigation-menu">
           <li className="menu-item">
             <Link className="link" to="/">
