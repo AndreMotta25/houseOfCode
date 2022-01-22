@@ -18,7 +18,6 @@ const Home = () => {
   }, []);
   return (
     <div className="container">
-      <Link to="/books">clicar</Link>
       <ul className="livros">
         {books.map((livro) => (
           <Book key={livro.id} card={livro}></Book>

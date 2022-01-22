@@ -9,159 +9,69 @@
   justify-content: space-between;
   gap: 20px;
 }
-.livro {
-  max-width: 210px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  border: 2px solid rgb(165, 165, 246);
-  flex-direction: column;
-  border-radius: 20px;
-}
-.livro img {
-  width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border: 1px solid rgb(165, 165, 246);
-  display: block;
-}
-.informacoes-book {
-  background-color: white;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  width: 100%;
-  padding: 5px;
-}
-.informacoes .info-item {
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-align: center;
-  display: block;
-}
 
-.acoes {
+#root {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 5px;
+  justify-content: space-between;
 }
-.acoes button {
-  padding: 5px;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background-color: rgb(165, 165, 246);
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-
-.link {
-  text-decoration: none;
-  text-transform: none;
-  color: black;
-}
-
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(220, 235, 230);
   position: relative;
 }
-.container-book {
-  margin: 0 auto;
-  display: flex;
-  max-width: 960px;
-  height: 100%;
-  gap: 50px;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: white;
-
-  align-items: center;
-  justify-content: center;
-}
-#details-book-capa {
-  flex: 0 1 400px;
-  width: 100%;
-  /* height: 500px; */
-}
-#details-book-capa img {
-  width: 100%;
-  border-radius: 20px;
-  height: 100%;
-  object-fit: cover;
-}
-.book-information {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex: 1 1 200px;
-  line-height: 2rem;
-  letter-spacing: 0.9px;
-  -webkit-font-smoothing: antialiased;
-}
-.title {
-  font-size: 4rem;
-  color: rgb(25, 115, 143);
-  font-weight: bold;
-}
-.price {
+/* .price {
   font-size: 2rem;
-}
-.btn {
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: white;
-  background-color: rgb(24, 62, 230);
-  max-width: 200px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  align-self: center;
-  width: 100%;
-}
-.container-header {
+} */
+
+/* .container-header {
   padding: 10px;
   background-color: rgb(24, 62, 230);
   font-size: 18px;
-  margin-bottom: 20px;
-}
-.navigation {
+  margin-bottom: 66px;
+  margin-top: 66px;
+} */
+/* .navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.container-header .navigation-menu {
+} */
+/* .container-header .navigation-menu {
   display: flex;
-  /* justify-content: right; */
-}
+  justify-content: right;
+  align-items: center;
+  justify-content: center;
+} */
 .menu-item {
   padding: 10px;
 }
 .link {
   color: white;
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
 }
 @media screen and (max-width: 860px) {
-  .container-book {
+  /* .container-book {
     flex-direction: column;
     text-align: center;
-  }
-  #details-book-capa {
+  } */
+  /* #details-book-capa {
     max-width: 400px;
-  }
+    align-self: inherit;
+  } */
 }
-.acoes-do-livro {
+/* .acoes-do-livro {
   display: flex;
   justify-content: space-between;
   width: 80%;
   align-items: center;
   margin: 0 auto;
   gap: 20px;
-}
-.shopQuantity {
-  width: 50px;
+} */
+/* .shopQuantity {
+  padding: 12px;
   height: 50px;
   border: 2px solid white;
   display: flex;
@@ -169,11 +79,16 @@ body {
   justify-content: center;
   font-weight: bold;
   border-radius: 10px;
+  color: white;
   box-shadow: 2px 2px 10px white;
   background-color: white;
   font-size: 18px;
-}
-
+  position: relative;
+  color: rgb(241, 148, 9);
+} */
+/* .preco {
+  color: white;
+} */
 #modalContainer {
   width: 100%;
   height: 100%;
@@ -220,3 +135,24 @@ body {
   letter-spacing: 1px;
   cursor: pointer;
 }
+
+footer {
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  margin-top: 66px;
+  font-size: 18px;
+  /* position: fixed; */
+  bottom: 0;
+  z-index: -1;
+}
+/* .btn-transformText {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+} */

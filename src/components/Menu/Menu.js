@@ -1,30 +1,47 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-
+import { RiShoppingCartLine } from "react-icons/ri";
+import { FiHeart } from "react-icons/fi";
+import { AiOutlineHome } from "react-icons/ai";
+import img from "../../assets/logo_white.png";
+import {
+  Cabecalho,
+  Navegacao,
+  ListaDeNavegacao,
+  Logo,
+  MenuItem,
+  ItensQuatity,
+} from "./styles";
+import { FavoriteContext } from "../../contexts/Favorito/Favorito";
+import { CartContext } from "../../contexts/Cart/Cart";
 const Menu = () => {
+  const { favoritos } = useContext(FavoriteContext);
+  const { cart } = useContext(CartContext);
   return (
-    <header className=" container-header">
-      <nav className="container navigation">
-        <div className="shopQuantity">10</div>
-        <ul className="navigation-menu">
-          <li className="menu-item">
-            <Link className="link" to="/">
-              Home
+    <Cabecalho>
+      <Navegacao>
+        <Logo src={img} alt="logo" />
+        <ListaDeNavegacao>
+          <MenuItem>
+            <Link to="/">
+              <AiOutlineHome size={`25px`} color="rgb(241, 148, 9)" />
             </Link>
-          </li>
-          <li className="menu-item">
-            <Link to="/" className="link">
-              Carrinho
+          </MenuItem>
+          <MenuItem>
+            <Link to="/cart">
+              <ItensQuatity>{cart.length}</ItensQuatity>
+              <RiShoppingCartLine size={"25px"} color="rgb(241, 148, 9)" />
             </Link>
-          </li>
-          <li className="menu-item">
-            <Link to="/" className="link">
-              Favoritos
+          </MenuItem>
+          <MenuItem>
+            <Link to="/favoritos">
+              <ItensQuatity>{favoritos.length}</ItensQuatity>
+              <FiHeart size={`20px`} color="red" />
             </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+          </MenuItem>
+        </ListaDeNavegacao>
+      </Navegacao>
+    </Cabecalho>
   );
 };
 
