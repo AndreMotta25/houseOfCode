@@ -18,4 +18,9 @@ talvez ocorra alguns bugs que não pude identificar.
 # Notas 
   - o app é totalmente responsivo
 
-
+### `Como começar ?` 
+  *   Faça o clone do repositorio.
+  *   Com o vsCode aberto, vá ao terminal e digite npm install, assim as dependencias do projeto vão ser instaladas(esse processo pode demorar).
+  *   Com tudo instalado devidamente, vá ao terminal e digite npm run server(para iniciar o servidor) e numa outra aba do terminal digite npm start(pra rodar o app), 
+  note, você tem que fazer isso em diferentes abas do terminal.
+  *   Agora é so testar a aplicação.
