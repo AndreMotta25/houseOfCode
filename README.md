@@ -22,6 +22,7 @@ talvez ocorra alguns bugs que não pude identificar.
 # Planos futuros
   - Pretendo colocar alguns toastify para algumas açoes que o usuario acionar.
   - Uma pagina de checkout.
+  - Uma pagina de notFound
 
 # Notas 
   - o app é totalmente responsivo
